@@ -11,9 +11,11 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Election.wtf" />
+        <Header title="elections.wtf" />
         <p className="description">
-        <img src="/image.png"/>
+        <a href="https://prop.house/nouns/hack-week-developers-developers-developers/5238">
+          <img src="/image.png"/>
+        </a>
         </p>
       </main>
 
