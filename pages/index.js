@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Election.wtf />
+        <Header title="Election.wtf" />
         <p className="description">
         <img src="/image.png">
         </p>
