@@ -1,90 +1,32 @@
-# Next + Netlify Starter
+Prop
+by
+0xhashbrown.eth
+Elections.wtf : A Dynamic MVP for Nouniverse Representation
+Tldr
+Introducing Elections.wtf: Cheffo & Primordia's innovative MVP reshapes Nouniverse rep elections with a Prop.house twist
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/46648482-644c-4c80-bafb-872057e51b6b/deploy-status)](https://app.netlify.com/sites/next-dev-starter/deploys)
+Description
+Proposal Summary: We're thrilled to present Elections.wtf, a groundbreaking MVP concept by CHEFFO that revolutionizes the way representatives are elected and engaged within the Nouniverse. This innovative platform combines the excitement of prop.house-like experiences with a democratic process to nominate, elect, and empower representatives within each Nouns House for designated term limits.
 
-This is a [Next.js](https://nextjs.org/) v12 project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and set up to be instantly deployed to [Netlify](https://url.netlify.com/SyTBPVamO)!
 
-This project is a very minimal starter that includes 2 sample components, a global stylesheet, a `netlify.toml` for deployment, and a `jsconfig.json` for setting up absolute imports and aliases. With Netlify, you'll have access to features like Preview Mode, server-side rendering/incremental static regeneration via Netlify Functions, and internationalized routing on deploy automatically.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=github&utm_medium=nextstarter-cs&utm_campaign=devex-cs)
+Our All-Star Team: Elections.wtf is brought to you by Primordia, a powerhouse trio consisting of 0xHashbrown, delightfulabyss, and captaincrunch. This technical dream team will collaborate closely with FOODNOUNS founder CHEFFO, and core contributor Jesse Morningstar, to implement and scale this revolutionary concept.
 
-(If you click this button, it will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify)
 
-## Table of Contents:
 
-- [Getting Started](#getting-started)
-- [Installation options](#installation-options)
-- [Testing](#testing)
-  - [Included Default Testing](#included-default-testing)
-  - [Removing Renovate](#removing-renovate)
-  - [Removing Cypress](#removing-cypress)
+Our Strategy: The MVP will be developed using a two-pronged approach. First, we'll adapt the existing Prop.house framework, as its data structure aligns seamlessly with our vision for the representatives election platform. Next, we'll introduce term limits and access control automation by integrating Hats Protocol, a DAO-native organizational tool. This custom-tailored structure will address Nouns' specific requirements and empower contributors with the context, authority, and accountability needed for success.
 
-## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+The Road Ahead: FOODNOUNS will be the first DAO to implement Elections.wtf, setting the stage for widespread adoption throughout the Nouns community. Get ready for a game-changing experience that will redefine the way we nominate, elect, and engage with our representatives in the Nouniverse!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-### Installation options
+Details: Elections.wtf revolutionizes voting in the NounsDAO and other DAOs by allowing communities to elect representatives, delegates, and candidates for various positions. It introduces term limits for healthy leadership rotation and enables Eth allocations for incentivizing and pre-funding elected groups. An Election Board of Representatives (EBR) ensures transparent representation, with communities initiating open ballots after electing a representative. The founding team aims to develop decentralized mechanisms for long-term sustainability, potentially moving towards an ElectionsDAO framework.
 
-**Option one:** One-click deploy
+![Nouns communites page](https://user-images.githubusercontent.com/139775/229396538-37e0aa21-2180-4377-bd39-7aa5e2ba1e35.png)
+![Nouns election page](https://user-images.githubusercontent.com/139775/229396549-7c43ad5e-4897-4854-b328-db3c9ed103b6.png)
+![election-wtf-diagram](https://user-images.githubusercontent.com/139775/229396554-d2a4148a-7ad7-4433-b51c-ae00bf1768ba.png)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=github&utm_medium=nextstarter-cs&utm_campaign=devex-cs)
 
-**Option two:** Manual clone
 
-1. Clone this repo: `git clone https://github.com/netlify-templates/next-netlify-starter.git`
-2. Navigate to the directory and run `npm install`
-3. Run `npm run dev`
-4. Make your changes
-5. Connect to [Netlify](https://url.netlify.com/Bk4UicocL) manually (the `netlify.toml` file is the one you'll need to make sure stays intact to make sure the export is done and pointed to the right stuff)
-
-## Testing
-
-### Included Default Testing
-
-We’ve included some tooling that helps us maintain these templates. This template currently uses:
-
-- [Renovate](https://www.mend.io/free-developer-tools/renovate/) - to regularly update our dependencies
-- [Cypress](https://www.cypress.io/) - to run tests against how the template runs in the browser
-- [Cypress Netlify Build Plugin](https://github.com/cypress-io/netlify-plugin-cypress) - to run our tests during our build process
-
-If your team is not interested in this tooling, you can remove them with ease!
-
-### Removing Renovate
-
-In order to keep our project up-to-date with dependencies we use a tool called [Renovate](https://github.com/marketplace/renovate). If you’re not interested in this tooling, delete the `renovate.json` file and commit that onto your main branch.
-
-### Removing Cypress
-
-For our testing, we use [Cypress](https://www.cypress.io/) for end-to-end testing. This makes sure that we can validate that our templates are rendering and displaying as we’d expect. By default, we have Cypress not generate deploy links if our tests don’t pass. If you’d like to keep Cypress and still generate the deploy links, go into your `netlify.toml` and delete the plugin configuration lines:
-
-```diff
-[[plugins]]
-  package = "netlify-plugin-cypress"
--  [plugins.inputs.postBuild]
--    enable = true
--
--  [plugins.inputs]
--    enable = false 
-```
-
-If you’d like to remove the `netlify-plugin-cypress` build plugin entirely, you’d need to delete the entire block above instead. And then make sure sure to remove the package from the dependencies using:
-
-```bash
-npm uninstall -D netlify-plugin-cypress
-```
-
-And lastly if you’d like to remove Cypress entirely, delete the entire `cypress` folder and the `cypress.config.ts` file. Then remove the dependency using:
-
-```bash
-npm uninstall -S cypress
-```
