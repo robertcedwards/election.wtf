@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <Header title="Election.wtf" />
         <p className="description">
-        <img src="/image.png">
+        <img src="/image.png"/>
         </p>
       </main>
 
